@@ -26,4 +26,3 @@ screenshot.SaveBitmapFile(mem_dc, 'C:\\Users\\right\\Desktop\\your_heart.bmp')
 
 mem_dc.DeleteDC()
 win32gui.DeleteObject(screenshot.GetHandle())
-
